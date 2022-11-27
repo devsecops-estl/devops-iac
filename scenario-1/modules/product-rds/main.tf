@@ -17,12 +17,10 @@ module "db" {
   allocated_storage          = var.allocated_storage
   create_random_password     = true
   availability_zone          = var.availability_zone
-  #  todo - set multi_az to true
-  multi_az                   = false
+  multi_az                   = true
   publicly_accessible        = false
   auto_minor_version_upgrade = true
-  #  todo - set deletion_protection to true
-  deletion_protection        = false
+  deletion_protection        = true
   backup_retention_period    = 7
   vpc_security_group_ids     = var.vpc_security_group_ids
 
