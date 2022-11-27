@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Alice",
+    "role": "Developer",
+    "groups": ["Alpha", "Gamma"]
+  },
+  {
+    "name": "Bob",
+    "role": "QA",
+    "groups": ["Beta"]
+  },
+  {
+    "name": "Michael",
+    "role": "Developer",
+    "groups": ["Beta"]
+  },
+  {
+    "name": "Mike",
+    "role": "QA",
+    "groups": ["Beta", "Gamma"
+    ]
+  },
+  {
+    "name": "Terry",
+    "role": "Developer",
+    "groups": ["Gamma"]
+  },
+  {
+    "name": "John",
+    "role": "QA",
+    "groups": ["Alpha"]
+  }
+]
